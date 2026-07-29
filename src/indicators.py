@@ -1,35 +1,43 @@
 """
 TAIF Indicators Module
 
-Author: SHENG HSU
+Reusable financial indicators.
 """
-
 
 import pandas as pd
 
 
-def moving_average(series, window):
-
+def moving_average(series: pd.Series, window: int) -> pd.Series:
     """
-    Moving Average
-
-    Parameters
-    ----------
-    series : pd.Series
-
-    window : int
-
+    Calculate moving average.
     """
+    return series.rolling(window=window).mean()
 
-    return series.rolling(window).mean()
 
-def daily_return(series):
+def daily_return(series: pd.Series) -> pd.Series:
+    """
+    Calculate daily percentage return.
+    """
     return series.pct_change()
 
-def rolling_volatility(return_series, window=20):
-    return return_series.rolling(window).std()
 
-def rsi(series, period=14):
+def rolling_volatility(
+    return_series: pd.Series,
+    window: int = 20
+) -> pd.Series:
+    """
+    Calculate rolling volatility.
+    """
+    return return_series.rolling(window=window).std()
+
+
+def rsi(
+    series: pd.Series,
+    period: int = 14
+) -> pd.Series:
+    """
+    Calculate Relative Strength Index (RSI).
+    """
 
     delta = series.diff()
 

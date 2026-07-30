@@ -16,7 +16,7 @@ This project aims to investigate whether Large Language Models (LLMs) and Multi-
 
 - [x] Project Setup
 - [x] Data Collection
-- [ ] Feature Engineering
+- [x] Feature Engineering
 - [ ] News Collection
 - [ ] Retrieval-Augmented Generation (RAG)
 - [ ] Multi-Agent Debate

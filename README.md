@@ -21,6 +21,7 @@ This project aims to investigate whether Large Language Models (LLMs) and Multi-
 - [x] Prompt Builder
 - [x] LLM Engine (Mock)
 - [x] Experiment Manager (v1.0)
+- [x] TAIF Parser
 - [ ] Retrieval-Augmented Generation (RAG)
 - [ ] Multi-Agent Debate
 - [ ] Verification Agent

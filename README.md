@@ -18,7 +18,9 @@ This project aims to investigate whether Large Language Models (LLMs) and Multi-
 - [x] Data Collection
 - [x] Feature Engineering
 - [x] Evidence Collection
-- [ ] Prompt Builder
+- [x] Prompt Builder
+- [x] LLM Engine(Mock)
+- [ ] Experiment Manager
 - [ ] Retrieval-Augmented Generation (RAG)
 - [ ] Multi-Agent Debate
 - [ ] Verification Agent

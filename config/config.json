@@ -1,0 +1,44 @@
+{
+    "project": {
+        "name": "TAIF",
+        "version": "0.3.0-alpha",
+        "market": "TWSE",
+        "timezone": "Asia/Taipei",
+        "research_mode": true
+    },
+
+    "stock": {
+        "stock_id": "2330.TW",
+        "company": "TSMC",
+        "exchange": "TWSE"
+    },
+
+    "data": {
+        "period": "1y",
+        "interval": "1d",
+        "auto_adjust": false
+    },
+
+    "evidence": {
+        "news_limit": 10,
+        "language": "zh-TW"
+    },
+
+    "prompt": {
+        "version": "v1",
+        "max_news": 10
+    },
+
+    "llm": {
+        "provider": "mock",
+        "model": "mock-v1",
+        "temperature": 0.2
+    },
+
+    "experiment": {
+        "save_prompt": true,
+        "save_output": true,
+        "save_report": true,
+        "save_logs": true
+    }
+}

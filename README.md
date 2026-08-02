@@ -31,7 +31,7 @@ The primary objectives of TAIF are:
 
 # Current Features
 
-## Phase 1 — Data Pipeline ✅
+## Phase 1 — Data Pipeline 
 
 - [x] Project Setup
 - [x] Taiwan Stock Data Collection
@@ -40,7 +40,7 @@ The primary objectives of TAIF are:
 
 ---
 
-## Phase 2 — Evidence Pipeline ✅
+## Phase 2 — Evidence Pipeline 
 
 - [x] Financial News Collection
 - [x] RSS-based Evidence Collection
@@ -48,7 +48,7 @@ The primary objectives of TAIF are:
 
 ---
 
-## Phase 3 — Research Infrastructure ✅
+## Phase 3 — Research Infrastructure 
 
 - [x] Prompt Builder
 - [x] LLM Engine (Mock)
@@ -209,12 +209,12 @@ pip install -r requirements.txt
 
 | Sprint | Status |
 |---------|--------|
-| Sprint 1 — Data Pipeline | ✅ Completed |
-| Sprint 2 — Evidence Pipeline | ✅ Completed |
-| Sprint 3 — Research Infrastructure | ✅ Completed |
-| Sprint 4 — OpenAI Integration | 🔄 Planned |
-| Sprint 5 — Multi-LLM Evaluation | 🔄 Planned |
-| Sprint 6 — Backtesting | 🔄 Planned |
+| Sprint 1 — Data Pipeline | Completed |
+| Sprint 2 — Evidence Pipeline | Completed |
+| Sprint 3 — Research Infrastructure | Completed |
+| Sprint 4 — OpenAI Integration | Planned |
+| Sprint 5 — Multi-LLM Evaluation | Planned |
+| Sprint 6 — Backtesting | Planned |
 
 ---
 
